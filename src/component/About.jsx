@@ -9,11 +9,11 @@ function About() {
   return (
     <section id="about" className="section-padding bg-soft">
       <div className="container">
-        <div className="row align-items-center g-5">
+        <div className="row align-items-center justify-content-center g-5">
 
           {/* Image Section */}
           <div
-            className="col-md-5 text-center"
+            className="col-md-6 text-center"
             data-aos="fade-right"
           >
             <div className="position-relative d-inline-block">
@@ -32,8 +32,8 @@ function About() {
 
           {/* Content Section */}
           <div
-            className="col-md-7 ms-3 ms-lg-0 px-lg-0"
-            data-aos="fade-left"
+            className="col-md-6 ms-4 ms-lg-0 px-lg-0"
+            data-aos="fade-right"
           >
             <h2 style={{ fontSize: "2.4rem" }}>
               I'm Rudraksh Karandikar
@@ -57,7 +57,6 @@ function About() {
               memories.
             </p>
 
-            {/* Badge Section */}
             <div className="mt-4 d-flex flex-wrap gap-2">
 
               <span
